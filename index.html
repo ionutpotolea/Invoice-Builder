@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2>Invoice creator</h2>
+                <p>Thanks for choosing GoodCorp, LLC!</p>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="services">
+                
+                </div>
+                <div class="table">
+                    <div class="tHead">
+                        <span>Task</span>
+                        <span>Total</span>
+                    </div>
+                    <div class="tBody" id="tBody">
+                        
+                    </div>
+                    <div class="tFooter">
+                        <div class="description">
+                            <span>Notes</span>
+                            <span>Total amount</span>
+                        </div>
+                        <div class="bottomLine">
+                            <span id="notes-content"></span>
+                            <span id="total-content">$0</span>
+                        </div> 
+                    </div>
+                </div>
+                <button type="submit" id="btn-submit" class="btn-submit">
+                    <img src="https://raw.githubusercontent.com/ionutpotolea/Invoice-Builder/main/Icons/mail.svg">
+                    <span>Send invoice</span>
+                </button>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

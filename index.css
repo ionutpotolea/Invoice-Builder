@@ -1,0 +1,177 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background: #1F2937;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    background: #3A69D2;
+    padding: 3.68rem 2.5rem 3.19rem;
+    text-align: center;
+}
+
+h2, p {
+    margin-top: 0;
+}
+
+header h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.625rem;
+}
+
+header p {
+    margin: 0;
+    font-weight: 400;
+}
+
+main {
+    padding: 2.5rem;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px,  max-content) );
+    grid-gap: 1.375rem;
+    /* grid-auto-flow: column; */
+    justify-content: center;
+    
+}
+
+.btn-serv {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4A4E74;
+    background: #D1D4F4;
+    border-radius: 7px;
+    border: 2px solid #D1D4F4;
+    padding: 0.9rem 1.44rem;
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    border: 2px solid #FFFFFF;
+}
+
+.btn-serv + .btn-serv {
+    /* margin-left: 1.39rem; */
+}
+
+.description, .tHead {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    color: #D5D4D8;
+}
+
+.table {
+    margin: 2.625rem 0 3.3rem;
+}
+
+.tHead {
+    font-weight: 700;
+}
+
+.tBody {
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
+    color: #F5F5F5;
+}
+
+.tBody-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tBody-row + .tBody-row {
+    margin-top: 1.5rem;
+}
+
+.service-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-right: 0.94rem;
+}
+
+.service-remove:hover{
+    color: #fff;
+}
+
+.service-remove {
+    font-size: 0.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #D5D4D8;
+    margin-right: auto;
+}
+
+.service-price {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.currency {
+    color: #918E9B;
+}
+
+.tFooter {
+    border-top: 1px solid #C3C6DB;
+    padding-top: 1.25rem;
+}
+
+#notes-content {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+#total-content {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #F5F5F5;
+
+}
+
+.bottomLine {
+    display: flex;
+    justify-content: space-between;
+    color: #F5F5F5;
+    margin-top: 1.25rem;
+}
+
+.btn-submit {
+    width: 100%;
+    background: #3A69D2;
+    color: #fff;
+    padding: 0.625rem 0;
+    border: 2px solid #3A69D2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.btn-submit:hover {
+    border: 2px solid rgba(255,255,255, .35);
+}
+
