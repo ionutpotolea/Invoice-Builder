@@ -74,10 +74,6 @@ button:focus {
     border: 2px solid #FFFFFF;
 }
 
-.btn-serv + .btn-serv {
-    /* margin-left: 1.39rem; */
-}
-
 .description, .tHead {
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -121,6 +117,7 @@ button:focus {
 }
 
 .service-remove {
+    cursor: pointer;
     font-size: 0.5rem;
     font-weight: 400;
     text-decoration: none;
