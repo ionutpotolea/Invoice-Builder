@@ -28,11 +28,11 @@ renderServiceButtons()
 
 btnSubmit.addEventListener("click", () => {
     if (requestedServices.length){
-        console.log("The invoice has been sent!")
+        alert("The invoice has been sent!")
         requestedServices = []
         renderRequestedServices()
     } else {
-        console.log("Please select a service first!")
+        alert("Please select a service first!")
     }
     
 })
